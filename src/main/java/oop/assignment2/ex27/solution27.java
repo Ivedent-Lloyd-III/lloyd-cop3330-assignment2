@@ -5,16 +5,17 @@ package oop.assignment2.ex27;
  *  Copyright 2021 Ivedent Lloyd III
  */
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class solution27 {
+    /*
     private static final Scanner in = new Scanner(System.in);
 
     private static String firstName;
     private static String lastName;
     private static String inputZIP;
     private static String inputemployeeID;
-/*
+
     public static void main(String[] args){
         userInput();
         validateInput();
@@ -56,4 +57,4 @@ public class solution27 {
 */
     }
 
-}
+
