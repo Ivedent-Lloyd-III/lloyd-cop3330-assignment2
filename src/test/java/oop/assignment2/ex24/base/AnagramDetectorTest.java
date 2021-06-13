@@ -16,12 +16,11 @@ class AnagramDetectorTest {
     }
 
     @Test
-    void isAnagram_returns_false_for_non_anagrams(){
+    void isAnagram_returns_false_for_non_anagrams() {
         AnagramDetector detector = new AnagramDetector();
 
         boolean actual = detector.isAnagram("difo", "god");
 
         assertFalse(actual);
     }
-
 }
