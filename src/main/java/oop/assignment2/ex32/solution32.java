@@ -9,8 +9,6 @@ public class solution32 {
     public static void main(String[] args) {
         System.out.println("Let's play Guess the Number!");
 
-        boolean keepPlaying = true;
-
         do {
             System.out.println("Enter the difficulty level (1, 2, 3) or press 4 to quit: ");
             int inputDifficulty = in.nextInt();
@@ -31,7 +29,7 @@ public class solution32 {
             System.out.print("That is not a proper difficulty input. ");
             }
 
-        } while(keepPlaying = true);
+        } while(true);
 
         }
 
