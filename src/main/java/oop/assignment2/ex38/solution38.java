@@ -43,15 +43,9 @@ public class solution38 {
         System.out.print("The even numbers are");
 
         for( int i = 0; i < userInput.length(); i++ ){
-
             if ( inputArray[i] % 2 == 0 ){
-
-                System.out.print(" "+inputArray[i]);
-
+                System.out.print(""+inputArray[i]);
             }
-
         }
-
     }
-
 }
