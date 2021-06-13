@@ -26,11 +26,11 @@ public class solution37 {
 
     private static void userInput(){
 
-        System.out.print("What's the minimum length?");
+        System.out.print("What's the minimum length? ");
         minimumLength = in.nextInt();
-        System.out.print("How many special characters?");
+        System.out.print("How many special characters? ");
         specialCharacters = in.nextInt();
-        System.out.print("How many numbers?");
+        System.out.print("How many numbers? ");
         amountNumbers = in.nextInt();
 
     }

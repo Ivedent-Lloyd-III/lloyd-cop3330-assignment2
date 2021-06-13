@@ -5,45 +5,42 @@ package oop.assignment2.ex35;
  *  Copyright 2021 Ivedent Lloyd III
  */
 
-import java.util.*;
+
 import java.util.Scanner;
 import java.util.Random;
+import java.util.*;
 
 public class solution35 {
-
     private static final Scanner in = new Scanner(System.in);
 
     public static void main(String[] args){
 
-        namesLoop();
-
+         String randomWinner = userInputNames();
+         outputStatement(randomWinner);
     }
 
-    private static void namesLoop(){
+    private static String userInputNames(){
+        List<String> userNamesArray = new ArrayList<String>();
 
-        String input;
-
-        List<String> listofNames = new ArrayList<String>();
-
-        while (true){
+        while(true){
             System.out.print("Enter a name: ");
-            input = in.nextLine();
-            if (input.equals("done")){
+            String userInput = in.nextLine();
+
+            if (userInput.equals("done")){
                 break;
             }
             else {
-
-                listofNames.add(input);
+                userNamesArray.add(userInput);
             }
         }
+        Random randomName = new Random();
+        int randomInt = randomName.nextInt(userNamesArray.size());
 
-        Random rand = new Random();
+        return userNamesArray.get(randomInt);
+    }
 
-        int randomInt = rand.nextInt(listofNames.size());
-
-        String randomName = listofNames.get(randomInt);
-
-        System.out.print("The winner is..." + randomName);
+    private static void outputStatement(String randomWinner){
+        System.out.print("The winner is... "+randomWinner+"!");
     }
 }
 

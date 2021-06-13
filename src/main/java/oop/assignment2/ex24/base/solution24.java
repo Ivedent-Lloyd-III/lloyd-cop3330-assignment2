@@ -1,5 +1,10 @@
 package oop.assignment2.ex24.base;
 
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution
+ *  Copyright 2021 Ivedent Lloyd III
+ */
+
 import java.util.Scanner;
 
 public class solution24 {
@@ -30,10 +35,10 @@ public class solution24 {
     public static String generateOutput(boolean isAnagram){
         String output;
         if(isAnagram){
-            output = "is anagram";
+            output = "\"" +word1+ "\" and \"" +word2+ "\" are anagrams.";
         }
         else {
-            output = "is not anagram";
+            output = "\"" +word1+ "\" and \"" +word2+ "\" are not anagrams.";
         }
         return output;
     }
