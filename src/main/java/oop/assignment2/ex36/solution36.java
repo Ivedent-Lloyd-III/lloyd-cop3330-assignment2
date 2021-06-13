@@ -5,8 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class solution36 {
-
-
+/*
     private static final Scanner in = new Scanner(System.in);
 
     private static String listofNumbers;
@@ -18,7 +17,7 @@ public class solution36 {
 
     }
 
-    private static void input() {
+    private static void input(){
 
 
         List<String> listofNumbers = new ArrayList<String>();
@@ -37,7 +36,7 @@ public class solution36 {
         System.out.print("Numbers:" + listofNumbers);
     }
 
-    private static void average(ArrayList listofNumbers) {
+    private static void average(ArrayList listofNumbers){
 
         //double doubleArray = Double.parseDouble(listofNumbers);
 
@@ -51,4 +50,6 @@ public class solution36 {
             intArray[i] = listofNumbers[i];
 
         }
+
+ */
 }

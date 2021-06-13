@@ -6,6 +6,8 @@ package oop.assignment2.ex39;
  */
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class solution39 {
@@ -14,7 +16,20 @@ public class solution39 {
 
     public static void main(String[] args){
 
-
+        namesListArray();
 
     }
+
+    private static void namesListArray() {
+
+        List<String> namesList = new ArrayList<>();
+        namesList.add("John Johnson");
+        namesList.add("Tou Xiong");
+        namesList.add("Michaela Michaelson");
+        namesList.add("Jake Jacobson");
+        namesList.add("Jacquelyn Jackson");
+        namesList.add("Sally Webber");
+
+    }
+
 }

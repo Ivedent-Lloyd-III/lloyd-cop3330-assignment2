@@ -12,11 +12,11 @@ public class solution24 {
 
         readUserInput();
 
-       AnagramDetector ad = new AnagramDetector();
-       boolean result = ad.isAnagram(word1, word2);
+        AnagramDetector ad = new AnagramDetector();
+        boolean result = ad.isAnagram(word1, word2);
 
-       String output = generateOutput(result);
-       System.out.print(output);
+        String output = generateOutput(result);
+        System.out.print(output);
     }
 
     public static void readUserInput(){
