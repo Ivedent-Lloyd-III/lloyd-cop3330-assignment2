@@ -4,70 +4,66 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class solution32 {
-
     private static final Scanner in = new Scanner(System.in);
 
-
     public static void main(String[] args) {
+        System.out.println("Let's play Guess the Number!");
 
-        System.out.println("Let's play Guess the Number! ");
-        System.out.println("Enter the difficulty level (1, 2, or 3): ");
-        int difficulty = in.nextInt();
+        boolean keepPlaying = true;
 
-        if (difficulty == 1){
+        do {
+            System.out.println("Enter the difficulty level (1, 2, 3) or press 4 to quit: ");
+            int inputDifficulty = in.nextInt();
+            int maxNumber;
 
-            difficulty1();
+            if (inputDifficulty == 1) {
+                maxNumber = 10;
+                guessGame(maxNumber);
+            } else if (inputDifficulty == 2) {
+                maxNumber = 100;
+                guessGame(maxNumber);
+            } else if (inputDifficulty == 3) {
+                maxNumber = 1000;
+                guessGame(maxNumber);
+            } else if (inputDifficulty == 4){
+                break;
+            }else{
+            System.out.print("That is not a proper difficulty input. ");
+            }
+
+        } while(keepPlaying = true);
+
         }
-        else if(difficulty == 2){
 
-            //difficulty2();
-        }
-        else {
-
-            // difficulty3();
-        }
-    }
-
-    private static void difficulty1(){
-
-        int i = 1;
-        int guess;
+    private static void guessGame(int maxNumber) {
+        int count = 1;
+        int userGuess;
         int randomNumber;
-        Random rand = new Random();
 
-        randomNumber = rand.nextInt(9);
-        int randomNumberCorrect = randomNumber + 1;
+        Random randomGen = new Random();
+        randomNumber = randomGen.nextInt(maxNumber);
 
-        System.out.print("I have my number. What's your guess?");
-        guess = in.nextInt();
+        System.out.print("I have my number. What's your guess? ");
+        userGuess = in.nextInt();
 
-        while (guess != randomNumberCorrect) {
-
-            if (guess < randomNumberCorrect) {
-
-                System.out.print("Too low. Guess again: ");
-                i = i + 1;
-                guess = in.nextInt();
-
+        do {
+            if( userGuess < randomNumber ){
+                System.out.println("Too low. Guess again: ");
+                userGuess = in.nextInt();
+                count++;
             }
-            if (guess > randomNumberCorrect){
-
-                System.out.print("Too high. Guess again: ");
-                i = i + 1;
-                guess = in.nextInt();
+            if( userGuess > randomNumber ){
+                System.out.println("Too high. Guess again: ");
+                userGuess = in.nextInt();
+                count++;
             }
-
-            else {
+            if( userGuess == randomNumber){
+                System.out.println("You got it in "+count+" guesses!");
                 break;
             }
+        } while(true);
 
-            System.out.print("You got it in " + i +" guesses!");
-
-        }
-
-        System.out.print("You got it in " + i +" guesses!");
     }
-
 }
 
 
