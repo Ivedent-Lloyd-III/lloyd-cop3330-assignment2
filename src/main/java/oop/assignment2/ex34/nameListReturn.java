@@ -26,8 +26,6 @@ public class nameListReturn {
         for (String s : namesList) {
 
             System.out.println(s);
-
         }
-
     }
 }
