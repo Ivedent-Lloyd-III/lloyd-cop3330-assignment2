@@ -26,7 +26,7 @@ public class solution35 {
             System.out.print("Enter a name: ");
             String userInput = in.nextLine();
 
-            if (userInput.equals("done")){
+            if (userInput.equals( "done" )){
                 break;
             }
             else {
