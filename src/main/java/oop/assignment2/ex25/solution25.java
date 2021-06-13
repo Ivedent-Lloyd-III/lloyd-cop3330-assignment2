@@ -70,11 +70,8 @@ public class solution25 {
 
         }
         else{
-
             if( letterCount >= 1  ){
-
                 if( numberCount >= 1){
-
                     if( otherCount >= 1){
                         return"very strong password.";
                     }
@@ -93,8 +90,6 @@ public class solution25 {
     }
 
     private static void outputStatement(String output, String userInputPassword){
-
         System.out.println("The password '" +userInputPassword+"' is a "+output+"");
-
     }
 }
