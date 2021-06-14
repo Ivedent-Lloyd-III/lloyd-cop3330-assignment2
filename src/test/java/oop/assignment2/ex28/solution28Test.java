@@ -9,8 +9,11 @@ class solution28Test {
     @Test
     void addition_test() {
 
-        final int expected = 15;
-        final int actual = 15;
+        int value1 = 1;
+        int value2 = 2;
+        int value3 = 3;
+        int value4 = 4;
+        int value5 = 5;
 
         assertEquals(15,15);
     }
