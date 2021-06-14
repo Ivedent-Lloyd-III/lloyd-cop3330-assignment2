@@ -11,7 +11,8 @@ class solution25Test {
 
         solution25 testSolution = new solution25();
 
-       // String "The password '12345' is a very weak password."
+
+
 
 
 

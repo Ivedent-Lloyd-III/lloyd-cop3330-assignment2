@@ -1,5 +1,10 @@
 package oop.assignment2.ex37;
 
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution
+ *  Copyright 2021 Ivedent Lloyd III
+ */
+
 import java.security.SecureRandom;
 import java.util.Random;
 

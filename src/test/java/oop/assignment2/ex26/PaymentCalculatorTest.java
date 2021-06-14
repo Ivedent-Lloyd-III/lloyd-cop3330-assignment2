@@ -8,5 +8,8 @@ class PaymentCalculatorTest {
 
     @Test
     void calculateMonthsUntilPaidOff() {
+
+        PaymentCalculator calculator = new PaymentCalculator();
+
     }
 }
