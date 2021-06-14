@@ -60,7 +60,6 @@ public class solution32 {
                 break;
             }
         } while(true);
-
     }
 }
 

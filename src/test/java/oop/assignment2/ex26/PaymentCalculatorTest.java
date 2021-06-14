@@ -7,9 +7,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class PaymentCalculatorTest {
 
     @Test
-    void calculateMonthsUntilPaidOff() {
+    void calculate_Months_Until_Paid_Off_Test(double i, double b, double p) {
 
-        PaymentCalculator calculator = new PaymentCalculator();
+        double i = 0.12/365.0;
+        double b = 5000;
+        double p = 100;
 
+        double expectedResult = 70;
+
+        double result = PaymentCalculator.equals(i, b ,p);
     }
 }
