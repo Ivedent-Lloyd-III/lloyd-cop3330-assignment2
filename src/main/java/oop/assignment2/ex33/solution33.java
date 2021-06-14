@@ -33,19 +33,13 @@ public class solution33 {
 
            case 1:
                return "Yes";
-
            case 2:
                return "No";
-
            case 3:
                return "Maybe";
-
            case 4:
                return "Ask again later";
-
        }
-
         return "";
     }
-
 }
