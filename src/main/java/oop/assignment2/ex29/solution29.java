@@ -20,8 +20,6 @@ public class solution29 {
     }
 
     private static String userInputValidation() {
-
-        int count = 1;
         String userInput;
 
         do {
@@ -37,7 +35,7 @@ public class solution29 {
             else{
                 break;
             }
-        } while( count != 0);
+        } while(true);
 
         return userInput;
 
