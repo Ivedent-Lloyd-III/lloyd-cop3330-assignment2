@@ -10,8 +10,6 @@ import java.util.Scanner;
 public class solution29 {
     private static final Scanner in = new Scanner(System.in);
 
-    private static String userInput;
-
     public static void main(String[] args) {
 
        String userReturnRate = userInputValidation();

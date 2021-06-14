@@ -7,6 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class solution25Test {
 
     @Test
-    void main() {
+    public void very_weak_password_test() {
+
+        solution25 testSolution = new solution25();
+
+
+
     }
 }
