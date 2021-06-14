@@ -28,9 +28,6 @@ class nameListReturnTest {
             case "Amanda Cullen" -> namesList.remove("Amanda Cullen");
             case "Jeremy Goodwin" -> namesList.remove("Jeremy Goodwin");
 
-            assertEqua("John Smith", removedEmployee);
-
-
         }
     }
 }
