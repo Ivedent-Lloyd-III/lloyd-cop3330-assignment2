@@ -15,6 +15,8 @@ class solution28Test {
         int value4 = 4;
         int value5 = 5;
 
-        assertEquals(15,15);
+        int result = value1+value2+value3+value4+value5;
+
+        assertEquals(15,result);
     }
 }

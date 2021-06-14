@@ -13,7 +13,7 @@ class solution30Test {
         int value2 = 12;
 
         int result = value1*value2;
-        assertEquals(12,12,0.001);
+        assertEquals(144,result,0.001);
 
     }
 }
