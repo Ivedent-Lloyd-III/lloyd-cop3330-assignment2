@@ -13,6 +13,5 @@ class solution28Test {
         final int actual = 15;
 
         assertEquals(15,15);
-
     }
 }
