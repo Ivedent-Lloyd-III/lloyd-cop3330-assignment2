@@ -14,8 +14,17 @@ class solution35Test {
     @Test
     void break_with_done() {
 
-        String result = "done";
+        String string1 = "done";
+        String string2 = "no";
+        String result;
 
+
+        if (string1.equals("done")) {
+            result = "done";
+        }
+        else{
+            result = "no";
         }
 
+    }
 }
