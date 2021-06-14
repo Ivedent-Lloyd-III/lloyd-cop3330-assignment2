@@ -28,7 +28,6 @@ public class solution32 {
             }else{
             System.out.print("That is not a proper difficulty input. ");
             }
-
         } while(true);
 
         }
