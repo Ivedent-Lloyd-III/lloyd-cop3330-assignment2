@@ -1,5 +1,10 @@
 package oop.assignment2.ex24.base;
 
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution 24 Test
+ *  Copyright 2021 Ivedent Lloyd III
+ */
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
