@@ -16,12 +16,10 @@ public class solution29 {
        int returnRate = Integer.parseInt(userReturnRate);
 
         outputStatement(returnRate);
-
     }
 
     private static String userInputValidation() {
         String userInput;
-
         do {
             System.out.print("What is the rate of return? ");
             userInput = in.nextLine();
@@ -36,16 +34,12 @@ public class solution29 {
                 break;
             }
         } while(true);
-
         return userInput;
-
     }
 
     private static void outputStatement( int returnRate ){
-
         int totalYears = 72 / returnRate;
         System.out.print("It will take "+totalYears+" years to double your initial investment.");
-
     }
 }
 
